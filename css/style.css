@@ -1,0 +1,72 @@
+html{
+    font-size: 62.5%;
+}
+
+section{
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+}
+div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-grow: 3;
+    
+}
+img{
+    display: flex;
+    justify-content: center;
+    margin-left: 40%;
+}
+span{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+h2, h3, h4, h5, p, h6{
+    font-size: 2.5rem;
+    font-weight: 200;
+    padding-left: 3px;
+}
+body{
+    background-color: #edf2f4;
+}
+
+input{
+    width: 20%;
+    height: 40%;
+}
+
+button{
+    background-color: #2b2d42;
+    color: #edf2f4;
+    border-radius: 3px;
+}
+
+p{
+    margin-top: 1%;
+    width: 50%;
+}
+.criticsTitle{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding-left: 25%;
+    font-size: 2.5rem;
+    font-weight: 600;
+
+}
+
+.critics{
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    font-size: 2.5rem;
+}
+.rated{
+    margin-top: -3%;
+}
