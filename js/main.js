@@ -11,12 +11,14 @@ function getMovie(){
 			document.querySelector('h3').innerText = data.Genre
 			document.querySelector('img').src = data.Poster
 			document.querySelector('h4').innerText = data.Rated
+			document.querySelector('.rating').innerText = " "
 			data.Ratings.forEach(obj => {
 				console.log(obj.Value)
 				console.log(obj.Source)
 				 const li = document.createElement('li')
 				 li.textContent = obj.Value
 				 document.querySelector('.rating').appendChild(li)})
+			document.querySelector('.source').innerText = " "
 			data.Ratings.forEach(obj =>{
 				console.log(obj.Source)
 				const li2 = document.createElement('li')
